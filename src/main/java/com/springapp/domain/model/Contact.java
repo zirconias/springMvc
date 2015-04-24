@@ -1,13 +1,14 @@
 package com.springapp.domain.model;
 
-import static javax.persistence.GenerationType.IDENTITY;
+import org.hibernate.annotations.Type;
+import org.joda.time.DateTime;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import org.joda.time.DateTime;
-import org.hibernate.annotations.Type;
-import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.format.annotation.DateTimeFormat.ISO;
+
+import static javax.persistence.GenerationType.IDENTITY;
 
 /**
  * Created by xirconias on 24/04/15.
