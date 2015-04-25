@@ -1,4 +1,4 @@
-package com.springapp.domain.model;
+package com.springapp;
 
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
